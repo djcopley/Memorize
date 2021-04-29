@@ -17,6 +17,8 @@
 		0A9FF35626361A3800600D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FF35526361A3800600D46 /* Preview Assets.xcassets */; };
 		0A9FF36126361A3800600D46 /* memorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FF36026361A3800600D46 /* memorizeTests.swift */; };
 		0A9FF36C26361A3800600D46 /* memorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FF36B26361A3800600D46 /* memorizeUITests.swift */; };
+		0ADED749263A5F6000C81862 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADED748263A5F6000C81862 /* Pie.swift */; };
+		0ADED74B263A684E00C81862 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADED74A263A684E00C81862 /* Cardify.swift */; };
 		0AE915142637C1CD002CE3FC /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE915132637C1CD002CE3FC /* Grid.swift */; };
 		0AE91519263899FE002CE3FC /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE91518263899FE002CE3FC /* GridLayout.swift */; };
 		0AE9151E2638A2AF002CE3FC /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9151D2638A2AF002CE3FC /* Array+Identifiable.swift */; };
@@ -57,6 +59,8 @@
 		0A9FF36726361A3800600D46 /* memorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9FF36B26361A3800600D46 /* memorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorizeUITests.swift; sourceTree = "<group>"; };
 		0A9FF36D26361A3800600D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADED748263A5F6000C81862 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		0ADED74A263A684E00C81862 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		0AE915132637C1CD002CE3FC /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		0AE91518263899FE002CE3FC /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		0AE9151D2638A2AF002CE3FC /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				0AE915132637C1CD002CE3FC /* Grid.swift */,
 				0AE91518263899FE002CE3FC /* GridLayout.swift */,
 				0A65AA6E263A2032005B030C /* Theme.swift */,
+				0ADED74A263A684E00C81862 /* Cardify.swift */,
+				0ADED748263A5F6000C81862 /* Pie.swift */,
 				0AE9151D2638A2AF002CE3FC /* Array+Identifiable.swift */,
 				0A65AA6C2639FB00005B030C /* Array+RandomSubset.swift */,
 				0AE915222638B65F002CE3FC /* Array+Only.swift */,
@@ -289,8 +295,10 @@
 				0A9FF34F26361A3500600D46 /* MemorizeApp.swift in Sources */,
 				0AE91519263899FE002CE3FC /* GridLayout.swift in Sources */,
 				0AE915142637C1CD002CE3FC /* Grid.swift in Sources */,
+				0ADED74B263A684E00C81862 /* Cardify.swift in Sources */,
 				0AE9151E2638A2AF002CE3FC /* Array+Identifiable.swift in Sources */,
 				0A65AA6F263A2032005B030C /* Theme.swift in Sources */,
+				0ADED749263A5F6000C81862 /* Pie.swift in Sources */,
 				0A2A7D0326363D7600FDD754 /* EmojiMemoryGame.swift in Sources */,
 				0AE915232638B65F002CE3FC /* Array+Only.swift in Sources */,
 			);
@@ -379,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -434,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

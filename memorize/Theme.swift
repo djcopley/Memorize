@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Theme<Content> {
+struct Theme<Content> where Content: Equatable {
     // Keep a list of the items and shuffle them when returning to user
     private var privateItems: [Content] = []
     // Generate a new number of pairs
